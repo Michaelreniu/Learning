@@ -1,0 +1,45 @@
+header {
+    background-color: blanchedalmond;
+    text-shadow: burlywood;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    background-color: bisque;
+    padding: 5px;
+    width: 20%;
+    height: 300px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+article {
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    background-color: bisque;
+    padding: 5px;
+    width: 70%;
+    height: 300px;
+}
+
+/* div#middle {
+    
+}*/
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: cadetblue;
+    margin-top: 20px;
+    border:2px solid black;
+    text-align: center;
+    position: unset;
+}
