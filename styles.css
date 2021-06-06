@@ -43,3 +43,20 @@ footer {
     text-align: center;
     position: unset;
 }
+
+.circle {
+    width: 40vh;
+    height: 40vh;
+    background-color: aqua;
+    border-radius: 50%;
+    border-bottom: 120px solid red;
+    border-left: 120px solid orange;
+    border-right: 120px solid blue;
+    border-top: 120px solid green;
+    margin: 0 auto;
+    transition: transform 5s cubic-bezier(0.33, 0.39, 0.46, 0.96);
+}
+
+.circle:hover {
+    transform: rotate(3880deg);
+}
