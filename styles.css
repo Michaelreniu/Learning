@@ -1,15 +1,40 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+div.container {
+    width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
 header {
     background-color: blanchedalmond;
     text-shadow: burlywood;
     text-align: center;
+    margin-top: 15px;
+}
+
+.img-shia {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    z-index: 0;
+}
+
+div.head-container {
+    margin-bottom: 15px;
+}
+
+div.content {
+    /*overflow: auto;*/
 }
 
 nav {
     float: left;
     background-color: bisque;
-    padding: 5px;
-    width: 20%;
-    height: 300px;
+    width: 28%;
+    padding: 0 15px 0 0;
 }
 
 li {
@@ -17,29 +42,26 @@ li {
 }
 
 article {
-    float: left;
+    float: right;
     text-align: center;
-    margin-left: 5%;
     background-color: bisque;
-    padding: 5px;
     width: 70%;
-    height: 300px;
 }
 
 /* div#middle {
     
-}*/
+}
 
 section::after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 footer {
     background-color: cadetblue;
-    margin-top: 20px;
-    border:2px solid black;
+    margin-top: 15px;
+    border: 1px solid black;
     text-align: center;
     position: unset;
 }
